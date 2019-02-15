@@ -97,7 +97,7 @@ extension PCLBlurEffectAlert {
         fileprivate var buttonHeight: CGFloat = 44
         
         private var tintColor: UIColor {
-            return view.tintColor
+            return .black
         }
         
         open override var prefersStatusBarHidden: Bool {
